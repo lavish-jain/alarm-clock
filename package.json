@@ -4,7 +4,7 @@
   "description": "An app that plays a random youtube video at a time given by the user",
   "main": "bin/index.js",
   "bin": {
-    "hello": "./bin/index.mjs"
+    "alarmclock": "./bin/index.mjs"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
