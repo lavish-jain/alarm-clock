@@ -1,0 +1,14 @@
+{
+  "name": "alarmclock",
+  "version": "1.0.0",
+  "description": "An app that plays a random youtube video at a time given by the user",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lavish Jain",
+  "license": "ISC",
+  "dependencies": {
+    "opn": "^6.0.0"
+  }
+}
