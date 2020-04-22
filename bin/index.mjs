@@ -21,7 +21,7 @@ const openLink = () => {
   })
 }
 const args = yargs
-  .usage('Usage: -h <hour (military format)> -m [minutes]')
+  .usage('Usage: -h <hour (military format)> -m [minutes] -f <path to file with list of links')
   .option('h', { alias: 'hour', describe: 'Hour in military format', type: 'number', demandOption: true })
   .option('m', { alias: 'minute', describe: 'Minutes', type: 'number' })
   .option('f', {alias: 'file', describe: 'Text file with list of youtube video links to randomly play from', type: 'string', demandOption: true})
